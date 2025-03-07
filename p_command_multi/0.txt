@@ -1,0 +1,1884 @@
+
+Epoch 180/199
+----------
+val_acc: 0.932310
+test_acc: 0.925090
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 1s
+Remaining time expected: 2m 51s
+
+Epoch 181/199
+----------
+val_acc: 0.935018
+test_acc: 0.927798
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 2s
+Remaining time expected: 2m 42s
+
+Epoch 182/199
+----------
+val_acc: 0.932310
+test_acc: 0.925993
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 54s
+Remaining time expected: 2m 33s
+
+Epoch 183/199
+----------
+val_acc: 0.933213
+test_acc: 0.925993
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 47s
+Remaining time expected: 2m 23s
+
+Epoch 184/199
+----------
+val_acc: 0.931408
+test_acc: 0.925090
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 41s
+Remaining time expected: 2m 14s
+
+Epoch 185/199
+----------
+val_acc: 0.933213
+test_acc: 0.925993
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 51s
+Remaining time expected: 2m 5s
+
+Epoch 186/199
+----------
+val_acc: 0.931408
+test_acc: 0.925090
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 35s
+Remaining time expected: 1m 55s
+
+Epoch 187/199
+----------
+val_acc: 0.932310
+test_acc: 0.924188
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 53s
+Remaining time expected: 1m 48s
+
+Epoch 188/199
+----------
+val_acc: 0.932310
+test_acc: 0.925993
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 54s
+Remaining time expected: 1m 39s
+
+Epoch 189/199
+----------
+val_acc: 0.931408
+test_acc: 0.925090
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 43s
+Remaining time expected: 1m 29s
+
+Epoch 190/199
+----------
+val_acc: 0.932310
+test_acc: 0.926895
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 52s
+Remaining time expected: 1m 21s
+
+Epoch 191/199
+----------
+val_acc: 0.930505
+test_acc: 0.931408
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 48s
+Remaining time expected: 1m 12s
+
+Epoch 192/199
+----------
+val_acc: 0.931408
+test_acc: 0.929603
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 42s
+Remaining time expected: 1m 2s
+
+Epoch 193/199
+----------
+val_acc: 0.935018
+test_acc: 0.925993
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 52s
+Remaining time expected: 0m 54s
+
+Epoch 194/199
+----------
+val_acc: 0.932310
+test_acc: 0.922383
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 45s
+Remaining time expected: 0m 45s
+
+Epoch 195/199
+----------
+val_acc: 0.932310
+test_acc: 0.927798
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 58s
+Remaining time expected: 0m 36s
+
+Epoch 196/199
+----------
+val_acc: 0.931408
+test_acc: 0.926895
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 31s
+Remaining time expected: 0m 27s
+
+Epoch 197/199
+----------
+val_acc: 0.932310
+test_acc: 0.926895
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 49s
+Remaining time expected: 0m 18s
+
+Epoch 198/199
+----------
+val_acc: 0.933213
+test_acc: 0.925993
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 44s
+Remaining time expected: 0m 9s
+
+Epoch 199/199
+----------
+val_acc: 0.929603
+test_acc: 0.927798
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 14s
+Remaining time expected: 0m 0s
+
+Training complete in 29m 52s
+
+Final best val acc: 0.935921
+Final best test acc: 0.927798
+Final best epoch:  122
+
+end_time: 2022-08-02 13:42:51.751087
+00:29:54.52
+
+Command: 6/6
+start_time: 2022-08-02 13:42:51.751356
+python ../s_core_code/train.py --model_name resnet18 --mode train --data_name pet --hp_opt asgd --hp_lr 1e-1 --grad g --hp_wd 0. --hp_de 1e+3 --hp_ep 200 --hp_
+id 0
+
+/root/.conda/envs/py39/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will
+be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+/root/.conda/envs/py39/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' ar
+e deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `
+weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Epoch 0/199
+----------
+val_acc: 0.745487
+It is now best.
+test_acc: 0.729242
+Time elapsed for single epoch: 0m 11s
+Total time expected: 36m 4s
+Remaining time expected: 35m 53s
+
+Epoch 1/199
+----------
+val_acc: 0.786101
+It is now best.
+test_acc: 0.773466
+Time elapsed for single epoch: 0m 10s
+Total time expected: 32m 3s
+Remaining time expected: 31m 43s
+
+Epoch 2/199
+----------
+val_acc: 0.830325
+It is now best.
+test_acc: 0.822202
+Time elapsed for single epoch: 0m 10s
+Total time expected: 31m 49s
+Remaining time expected: 31m 20s
+
+Epoch 3/199
+----------
+val_acc: 0.833032
+It is now best.
+test_acc: 0.814079
+Time elapsed for single epoch: 0m 9s
+Total time expected: 31m 7s
+Remaining time expected: 30m 30s
+
+Epoch 4/199
+----------
+val_acc: 0.845668
+It is now best.
+test_acc: 0.835740
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 29s
+Remaining time expected: 28m 45s
+
+Epoch 5/199
+----------
+val_acc: 0.836643
+test_acc: 0.852888
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 18s
+Remaining time expected: 29m 23s
+
+Epoch 6/199
+----------
+val_acc: 0.885379
+It is now best.
+test_acc: 0.870939
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 3s
+Remaining time expected: 29m 0s
+
+Epoch 7/199
+----------
+val_acc: 0.902527
+It is now best.
+test_acc: 0.891697
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 25s
+Remaining time expected: 29m 12s
+
+Epoch 8/199
+----------
+val_acc: 0.892599
+test_acc: 0.890794
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 23s
+Remaining time expected: 29m 1s
+
+Epoch 9/199
+----------
+val_acc: 0.888087
+test_acc: 0.898917
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 6s
+Remaining time expected: 28m 35s
+
+Epoch 10/199
+----------
+val_acc: 0.894404
+test_acc: 0.910650
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 24s
+Remaining time expected: 28m 43s
+
+Epoch 11/199
+----------
+val_acc: 0.900722
+test_acc: 0.894404
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 11s
+Remaining time expected: 28m 22s
+
+Epoch 12/199
+----------
+val_acc: 0.902527
+test_acc: 0.907942
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 15s
+Remaining time expected: 28m 17s
+
+Epoch 13/199
+----------
+val_acc: 0.912455
+It is now best.
+test_acc: 0.917870
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 17s
+Remaining time expected: 28m 10s
+
+Epoch 14/199
+----------
+val_acc: 0.902527
+test_acc: 0.899819
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 0s
+Remaining time expected: 27m 45s
+
+Epoch 15/199
+----------
+val_acc: 0.915162
+It is now best.
+test_acc: 0.916968
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 30s
+Remaining time expected: 28m 4s
+
+Epoch 16/199
+----------
+val_acc: 0.925993
+It is now best.
+test_acc: 0.924188
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 25s
+Remaining time expected: 27m 50s
+
+Epoch 17/199
+----------
+val_acc: 0.916968
+test_acc: 0.909747
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 34s
+Remaining time expected: 27m 49s
+
+Epoch 18/199
+----------
+val_acc: 0.918773
+test_acc: 0.925090
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 29s
+Remaining time expected: 27m 35s
+
+Epoch 19/199
+----------
+val_acc: 0.916065
+test_acc: 0.904332
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 56s
+Remaining time expected: 26m 56s
+
+Epoch 20/199
+----------
+val_acc: 0.907040
+test_acc: 0.898917
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 2s
+Remaining time expected: 26m 53s
+
+Epoch 21/199
+----------
+val_acc: 0.898014
+test_acc: 0.897112
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 17s
+Remaining time expected: 26m 57s
+
+Epoch 22/199
+----------
+val_acc: 0.914260
+test_acc: 0.904332
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 30s
+Remaining time expected: 26m 59s
+
+Epoch 23/199
+----------
+val_acc: 0.924188
+test_acc: 0.910650
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 10s
+Remaining time expected: 26m 32s
+
+Epoch 24/199
+----------
+val_acc: 0.907040
+test_acc: 0.903430
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 13s
+Remaining time expected: 26m 27s
+
+Epoch 25/199
+----------
+val_acc: 0.918773
+test_acc: 0.912455
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 32s
+Remaining time expected: 26m 34s
+
+Epoch 26/199
+----------
+val_acc: 0.888087
+test_acc: 0.900722
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 18s
+Remaining time expected: 26m 13s
+
+Epoch 27/199
+----------
+val_acc: 0.924188
+test_acc: 0.907040
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 13s
+Remaining time expected: 25m 59s
+
+Epoch 28/199
+----------
+val_acc: 0.913357
+test_acc: 0.907942
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 0s
+Remaining time expected: 25m 39s
+
+Epoch 29/199
+----------
+val_acc: 0.908845
+test_acc: 0.907942
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 6s
+Remaining time expected: 25m 35s
+
+Epoch 30/199
+----------
+val_acc: 0.921480
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 60s
+Remaining time expected: 25m 21s
+
+Epoch 31/199
+----------
+val_acc: 0.923285
+test_acc: 0.917870
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 49s
+Remaining time expected: 25m 3s
+
+Epoch 32/199
+----------
+val_acc: 0.918773
+test_acc: 0.910650
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 22s
+Remaining time expected: 25m 21s
+
+Epoch 33/199
+----------
+val_acc: 0.917870
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 44s
+Remaining time expected: 24m 41s
+
+Epoch 34/199
+----------
+val_acc: 0.923285
+test_acc: 0.917870
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 7s
+Remaining time expected: 24m 50s
+
+Epoch 35/199
+----------
+val_acc: 0.921480
+test_acc: 0.915162
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 48s
+Remaining time expected: 24m 26s
+
+Epoch 36/199
+----------
+val_acc: 0.925993
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 56s
+Remaining time expected: 24m 24s
+
+Epoch 37/199
+----------
+val_acc: 0.924188
+test_acc: 0.916968
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 10s
+Remaining time expected: 24m 26s
+
+Epoch 38/199
+----------
+val_acc: 0.925090
+test_acc: 0.913357
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 54s
+Remaining time expected: 24m 4s
+
+Epoch 39/199
+----------
+val_acc: 0.923285
+test_acc: 0.916065
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 16s
+Remaining time expected: 24m 13s
+
+Epoch 40/199
+----------
+val_acc: 0.925993
+test_acc: 0.917870
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 20s
+Remaining time expected: 24m 7s
+
+Epoch 41/199
+----------
+val_acc: 0.917870
+test_acc: 0.922383
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 54s
+Remaining time expected: 23m 37s
+
+Epoch 42/199
+----------
+val_acc: 0.916968
+test_acc: 0.916968
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 23s
+Remaining time expected: 23m 51s
+
+Epoch 43/199
+----------
+val_acc: 0.919675
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 57s
+Remaining time expected: 23m 22s
+
+Epoch 44/199
+----------
+val_acc: 0.919675
+test_acc: 0.917870
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 12s
+Remaining time expected: 23m 24s
+
+Epoch 45/199
+----------
+val_acc: 0.917870
+test_acc: 0.914260
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 21s
+Remaining time expected: 23m 22s
+
+Epoch 46/199
+----------
+val_acc: 0.916968
+test_acc: 0.907040
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 12s
+Remaining time expected: 23m 6s
+
+Epoch 47/199
+----------
+val_acc: 0.916065
+test_acc: 0.914260
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 19s
+Remaining time expected: 23m 2s
+
+Epoch 48/199
+----------
+val_acc: 0.923285
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 13s
+Remaining time expected: 22m 49s
+
+Epoch 49/199
+----------
+val_acc: 0.923285
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 7s
+Remaining time expected: 22m 36s
+
+Epoch 50/199
+----------
+val_acc: 0.919675
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 53s
+Remaining time expected: 22m 15s
+
+Epoch 51/199
+----------
+val_acc: 0.921480
+test_acc: 0.920578
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 60s
+Remaining time expected: 22m 12s
+
+Epoch 52/199
+----------
+val_acc: 0.917870
+test_acc: 0.922383
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 56s
+Remaining time expected: 22m 0s
+
+Epoch 53/199
+----------
+val_acc: 0.926895
+It is now best.
+test_acc: 0.914260
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 14s
+Remaining time expected: 22m 4s
+
+Epoch 54/199
+----------
+val_acc: 0.923285
+test_acc: 0.923285
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 7s
+Remaining time expected: 21m 50s
+
+Epoch 55/199
+----------
+val_acc: 0.920578
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 60s
+Remaining time expected: 21m 36s
+
+Epoch 56/199
+----------
+val_acc: 0.928700
+It is now best.
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 6s
+Remaining time expected: 21m 31s
+
+Epoch 57/199
+----------
+val_acc: 0.925090
+test_acc: 0.917870
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 19s
+Remaining time expected: 21m 31s
+
+Epoch 58/199
+----------
+val_acc: 0.928700
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 17s
+Remaining time expected: 21m 21s
+
+Epoch 59/199
+----------
+val_acc: 0.922383
+test_acc: 0.917870
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 54s
+Remaining time expected: 20m 56s
+
+Epoch 60/199
+----------
+val_acc: 0.925090
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 5s
+Remaining time expected: 20m 55s
+
+Epoch 61/199
+----------
+val_acc: 0.927798
+test_acc: 0.928700
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 1s
+Remaining time expected: 20m 43s
+
+Epoch 62/199
+----------
+val_acc: 0.927798
+test_acc: 0.924188
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 22s
+Remaining time expected: 20m 48s
+
+Epoch 63/199
+----------
+val_acc: 0.925090
+test_acc: 0.924188
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 3s
+Remaining time expected: 20m 26s
+
+Epoch 64/199
+----------
+val_acc: 0.920578
+test_acc: 0.916065
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 8s
+Remaining time expected: 20m 20s
+
+Epoch 65/199
+----------
+val_acc: 0.921480
+test_acc: 0.920578
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 7s
+Remaining time expected: 20m 11s
+
+Epoch 66/199
+----------
+val_acc: 0.921480
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 20s
+Remaining time expected: 20m 10s
+
+Epoch 67/199
+----------
+val_acc: 0.926895
+test_acc: 0.916968
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 16s
+Remaining time expected: 19m 59s
+
+Epoch 68/199
+----------
+val_acc: 0.927798
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 21s
+Remaining time expected: 19m 53s
+
+Epoch 69/199
+----------
+val_acc: 0.925993
+test_acc: 0.917870
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 59s
+Remaining time expected: 19m 29s
+
+Epoch 70/199
+----------
+val_acc: 0.924188
+test_acc: 0.923285
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 59s
+Remaining time expected: 19m 21s
+
+Epoch 71/199
+----------
+val_acc: 0.927798
+test_acc: 0.924188
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 13s
+Remaining time expected: 19m 21s
+
+Epoch 72/199
+----------
+val_acc: 0.928700
+test_acc: 0.916968
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 59s
+Remaining time expected: 19m 3s
+
+Epoch 73/199
+----------
+val_acc: 0.928700
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 25s
+Remaining time expected: 19m 9s
+
+Epoch 74/199
+----------
+val_acc: 0.928700
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 12s
+Remaining time expected: 18m 53s
+
+Epoch 75/199
+----------
+val_acc: 0.928700
+test_acc: 0.923285
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 11s
+Remaining time expected: 18m 43s
+
+Epoch 76/199
+----------
+val_acc: 0.925993
+test_acc: 0.920578
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 3s
+Remaining time expected: 18m 29s
+
+Epoch 77/199
+----------
+val_acc: 0.928700
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 9s
+Remaining time expected: 18m 23s
+
+Epoch 78/199
+----------
+val_acc: 0.928700
+test_acc: 0.920578
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 22s
+Remaining time expected: 18m 23s
+
+Epoch 79/199
+----------
+val_acc: 0.922383
+test_acc: 0.907942
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 54s
+Remaining time expected: 17m 57s
+
+Epoch 80/199
+----------
+val_acc: 0.925993
+test_acc: 0.914260
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 26s
+Remaining time expected: 18m 7s
+
+Epoch 81/199
+----------
+val_acc: 0.925993
+test_acc: 0.914260
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 7s
+Remaining time expected: 17m 46s
+
+Epoch 82/199
+----------
+val_acc: 0.923285
+test_acc: 0.916968
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 57s
+Remaining time expected: 17m 31s
+
+Epoch 83/199
+----------
+val_acc: 0.919675
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 59s
+Remaining time expected: 17m 23s
+
+Epoch 84/199
+----------
+val_acc: 0.923285
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 15s
+Remaining time expected: 17m 23s
+
+Epoch 85/199
+----------
+val_acc: 0.924188
+test_acc: 0.920578
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 57s
+Remaining time expected: 17m 4s
+
+Epoch 86/199
+----------
+val_acc: 0.926895
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 2s
+Remaining time expected: 16m 58s
+
+Epoch 87/199
+----------
+val_acc: 0.920578
+test_acc: 0.924188
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 13s
+Remaining time expected: 16m 55s
+
+Epoch 88/199
+----------
+val_acc: 0.922383
+test_acc: 0.916968
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 13s
+Remaining time expected: 16m 46s
+
+Epoch 89/199
+----------
+val_acc: 0.925993
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 60s
+Remaining time expected: 16m 30s
+
+Epoch 90/199
+----------
+val_acc: 0.926895
+test_acc: 0.922383
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 14s
+Remaining time expected: 16m 29s
+
+Epoch 91/199
+----------
+val_acc: 0.925090
+test_acc: 0.920578
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 7s
+Remaining time expected: 16m 16s
+
+Epoch 92/199
+----------
+val_acc: 0.923285
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 3s
+Remaining time expected: 16m 5s
+
+Epoch 93/199
+----------
+val_acc: 0.921480
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 57s
+Remaining time expected: 15m 52s
+
+Epoch 94/199
+----------
+val_acc: 0.922383
+test_acc: 0.925090
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 18s
+Remaining time expected: 15m 54s
+
+Epoch 95/199
+----------
+val_acc: 0.923285
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 12s
+Remaining time expected: 15m 42s
+
+Epoch 96/199
+----------
+val_acc: 0.925090
+test_acc: 0.922383
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 12s
+Remaining time expected: 15m 33s
+
+Epoch 97/199
+----------
+val_acc: 0.925090
+test_acc: 0.920578
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 56s
+Remaining time expected: 15m 16s
+
+Epoch 98/199
+----------
+val_acc: 0.925090
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 58s
+Remaining time expected: 15m 8s
+
+Epoch 99/199
+----------
+val_acc: 0.925993
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 3s
+Remaining time expected: 15m 2s
+
+Epoch 100/199
+----------
+val_acc: 0.923285
+test_acc: 0.920578
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 58s
+Remaining time expected: 14m 50s
+
+Epoch 101/199
+----------
+val_acc: 0.921480
+test_acc: 0.922383
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 4s
+Remaining time expected: 14m 44s
+
+Epoch 102/199
+----------
+val_acc: 0.922383
+test_acc: 0.916968
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 12s
+Remaining time expected: 14m 39s
+
+Epoch 103/199
+----------
+val_acc: 0.923285
+test_acc: 0.917870
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 11s
+Remaining time expected: 14m 29s
+
+Epoch 104/199
+----------
+val_acc: 0.923285
+test_acc: 0.916065
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 59s
+Remaining time expected: 14m 15s
+
+Epoch 105/199
+----------
+val_acc: 0.924188
+test_acc: 0.916065
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 9s
+Remaining time expected: 14m 10s
+
+Epoch 106/199
+----------
+val_acc: 0.925993
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 9s
+Remaining time expected: 14m 1s
+
+Epoch 107/199
+----------
+val_acc: 0.923285
+test_acc: 0.922383
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 49s
+Remaining time expected: 13m 43s
+
+Epoch 108/199
+----------
+val_acc: 0.925993
+test_acc: 0.923285
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 9s
+Remaining time expected: 13m 43s
+
+Epoch 109/199
+----------
+val_acc: 0.925090
+test_acc: 0.920578
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 13s
+Remaining time expected: 13m 36s
+
+Epoch 110/199
+----------
+val_acc: 0.923285
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 11s
+Remaining time expected: 13m 26s
+
+Epoch 111/199
+----------
+val_acc: 0.925090
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 3s
+Remaining time expected: 13m 13s
+
+Epoch 112/199
+----------
+val_acc: 0.928700
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 20s
+Remaining time expected: 13m 12s
+
+Epoch 113/199
+----------
+val_acc: 0.926895
+test_acc: 0.916968
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 51s
+Remaining time expected: 12m 50s
+
+Epoch 114/199
+----------
+val_acc: 0.929603
+It is now best.
+test_acc: 0.916968
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 13s
+Remaining time expected: 12m 50s
+
+Epoch 115/199
+----------
+val_acc: 0.920578
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 13s
+Remaining time expected: 12m 41s
+
+Epoch 116/199
+----------
+val_acc: 0.928700
+test_acc: 0.915162
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 25s
+Remaining time expected: 12m 38s
+
+Epoch 117/199
+----------
+val_acc: 0.926895
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 10s
+Remaining time expected: 12m 22s
+
+Epoch 118/199
+----------
+val_acc: 0.925090
+test_acc: 0.916968
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 21s
+Remaining time expected: 12m 17s
+
+Epoch 119/199
+----------
+val_acc: 0.925993
+test_acc: 0.914260
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 58s
+Remaining time expected: 11m 59s
+
+Epoch 120/199
+----------
+val_acc: 0.926895
+test_acc: 0.924188
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 40s
+Remaining time expected: 11m 43s
+
+Epoch 121/199
+----------
+val_acc: 0.925993
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 13s
+Remaining time expected: 11m 47s
+
+Epoch 122/199
+----------
+val_acc: 0.927798
+test_acc: 0.920578
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 1s
+Remaining time expected: 11m 34s
+
+Epoch 123/199
+----------
+val_acc: 0.924188
+test_acc: 0.922383
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 56s
+Remaining time expected: 11m 23s
+
+Epoch 124/199
+----------
+val_acc: 0.928700
+test_acc: 0.922383
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 57s
+Remaining time expected: 11m 14s
+
+Epoch 125/199
+----------
+val_acc: 0.924188
+test_acc: 0.916065
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 49s
+Remaining time expected: 11m 2s
+
+Epoch 126/199
+----------
+val_acc: 0.924188
+test_acc: 0.914260
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 18s
+Remaining time expected: 11m 3s
+
+Epoch 127/199
+----------
+val_acc: 0.925090
+test_acc: 0.913357
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 33s
+Remaining time expected: 10m 38s
+
+Epoch 128/199
+----------
+val_acc: 0.925993
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 3s
+Remaining time expected: 10m 40s
+
+Epoch 129/199
+----------
+val_acc: 0.928700
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 4s
+Remaining time expected: 10m 31s
+
+Epoch 130/199
+----------
+val_acc: 0.924188
+test_acc: 0.923285
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 24s
+Remaining time expected: 10m 29s
+
+Epoch 131/199
+----------
+val_acc: 0.927798
+test_acc: 0.916065
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 5s
+Remaining time expected: 10m 14s
+
+Epoch 132/199
+----------
+val_acc: 0.925090
+test_acc: 0.920578
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 8s
+Remaining time expected: 10m 6s
+
+Epoch 133/199
+----------
+val_acc: 0.926895
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 25s
+Remaining time expected: 10m 2s
+
+Epoch 134/199
+----------
+val_acc: 0.927798
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 5s
+Remaining time expected: 9m 47s
+
+Epoch 135/199
+----------
+val_acc: 0.927798
+test_acc: 0.920578
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 50s
+Remaining time expected: 9m 33s
+
+Epoch 136/199
+----------
+val_acc: 0.927798
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 60s
+Remaining time expected: 9m 27s
+
+Epoch 137/199
+----------
+val_acc: 0.928700
+test_acc: 0.925090
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 22s
+Remaining time expected: 9m 25s
+
+Epoch 138/199
+----------
+val_acc: 0.927798
+test_acc: 0.920578
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 23s
+Remaining time expected: 9m 16s
+
+Epoch 139/199
+----------
+val_acc: 0.929603
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 51s
+Remaining time expected: 8m 57s
+
+Epoch 140/199
+----------
+val_acc: 0.930505
+It is now best.
+test_acc: 0.922383
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 6s
+Remaining time expected: 8m 53s
+
+Epoch 141/199
+----------
+val_acc: 0.928700
+test_acc: 0.920578
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 4s
+Remaining time expected: 8m 43s
+
+Epoch 142/199
+----------
+val_acc: 0.926895
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 13s
+Remaining time expected: 8m 37s
+
+Epoch 143/199
+----------
+val_acc: 0.926895
+test_acc: 0.923285
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 5s
+Remaining time expected: 8m 25s
+
+Epoch 144/199
+----------
+val_acc: 0.928700
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 3s
+Remaining time expected: 8m 16s
+
+Epoch 145/199
+----------
+val_acc: 0.928700
+test_acc: 0.917870
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 7s
+Remaining time expected: 8m 8s
+
+Epoch 146/199
+----------
+val_acc: 0.926895
+test_acc: 0.917870
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 4s
+Remaining time expected: 7m 58s
+
+Epoch 147/199
+----------
+val_acc: 0.925993
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 51s
+Remaining time expected: 7m 46s
+
+Epoch 148/199
+----------
+val_acc: 0.924188
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 10s
+Remaining time expected: 7m 42s
+
+Epoch 149/199
+----------
+val_acc: 0.925090
+test_acc: 0.920578
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 8s
+Remaining time expected: 7m 32s
+
+Epoch 150/199
+----------
+val_acc: 0.925090
+test_acc: 0.920578
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 58s
+Remaining time expected: 7m 20s
+
+Epoch 151/199
+----------
+val_acc: 0.925993
+test_acc: 0.925993
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 12s
+Remaining time expected: 7m 15s
+
+Epoch 152/199
+----------
+val_acc: 0.927798
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 37s
+Remaining time expected: 6m 58s
+
+Epoch 153/199
+----------
+val_acc: 0.925090
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 7s
+Remaining time expected: 6m 56s
+
+Epoch 154/199
+----------
+val_acc: 0.926895
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 3s
+Remaining time expected: 6m 46s
+
+Epoch 155/199
+----------
+val_acc: 0.924188
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 12s
+Remaining time expected: 6m 39s
+
+Epoch 156/199
+----------
+val_acc: 0.931408
+It is now best.
+test_acc: 0.923285
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 54s
+Remaining time expected: 6m 26s
+
+Epoch 157/199
+----------
+val_acc: 0.927798
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 21s
+Remaining time expected: 6m 22s
+
+Epoch 158/199
+----------
+val_acc: 0.926895
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 28s
+Remaining time expected: 6m 15s
+
+Epoch 159/199
+----------
+val_acc: 0.924188
+test_acc: 0.916968
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 12s
+Remaining time expected: 6m 2s
+
+Epoch 160/199
+----------
+val_acc: 0.927798
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 19s
+Remaining time expected: 5m 55s
+
+Epoch 161/199
+----------
+val_acc: 0.928700
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 15s
+Remaining time expected: 5m 45s
+
+Epoch 162/199
+----------
+val_acc: 0.927798
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 32s
+Remaining time expected: 5m 39s
+
+Epoch 163/199
+----------
+val_acc: 0.929603
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 3s
+Remaining time expected: 5m 24s
+
+Epoch 164/199
+----------
+val_acc: 0.927798
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 12s
+Remaining time expected: 5m 17s
+
+Epoch 165/199
+----------
+val_acc: 0.926895
+test_acc: 0.917870
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 13s
+Remaining time expected: 5m 8s
+
+Epoch 166/199
+----------
+val_acc: 0.927798
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 16s
+Remaining time expected: 4m 60s
+
+Epoch 167/199
+----------
+val_acc: 0.927798
+test_acc: 0.920578
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 14s
+Remaining time expected: 4m 50s
+
+Epoch 168/199
+----------
+val_acc: 0.925090
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 5s
+Remaining time expected: 4m 40s
+
+Epoch 169/199
+----------
+val_acc: 0.926895
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 46s
+Remaining time expected: 4m 37s
+
+Epoch 170/199
+----------
+val_acc: 0.926895
+test_acc: 0.920578
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 2s
+Remaining time expected: 4m 21s
+
+Epoch 171/199
+----------
+val_acc: 0.929603
+test_acc: 0.917870
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 10s
+Remaining time expected: 4m 13s
+
+Epoch 172/199
+----------
+val_acc: 0.927798
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 7s
+Remaining time expected: 4m 4s
+
+Epoch 173/199
+----------
+val_acc: 0.929603
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 15s
+Remaining time expected: 3m 56s
+
+Epoch 174/199
+----------
+val_acc: 0.925993
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 58s
+Remaining time expected: 3m 45s
+
+Epoch 175/199
+----------
+val_acc: 0.929603
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 52s
+Remaining time expected: 3m 35s
+
+Epoch 176/199
+----------
+val_acc: 0.928700
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 4s
+Remaining time expected: 3m 27s
+
+Epoch 177/199
+----------
+val_acc: 0.926895
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 34s
+Remaining time expected: 3m 22s
+
+Epoch 178/199
+----------
+val_acc: 0.929603
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 2s
+Remaining time expected: 3m 9s
+
+Epoch 179/199
+----------
+val_acc: 0.925993
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 5s
+Remaining time expected: 3m 0s
+
+Epoch 180/199
+----------
+val_acc: 0.929603
+test_acc: 0.920578
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 52s
+Remaining time expected: 2m 50s
+
+Epoch 181/199
+----------
+val_acc: 0.927798
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 23s
+Remaining time expected: 2m 44s
+
+Epoch 182/199
+----------
+val_acc: 0.927798
+test_acc: 0.922383
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 7s
+Remaining time expected: 2m 34s
+
+Epoch 183/199
+----------
+val_acc: 0.927798
+test_acc: 0.922383
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 33s
+Remaining time expected: 2m 27s
+
+Epoch 184/199
+----------
+val_acc: 0.930505
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 54s
+Remaining time expected: 2m 15s
+
+Epoch 185/199
+----------
+val_acc: 0.924188
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 58s
+Remaining time expected: 2m 6s
+
+Epoch 186/199
+----------
+val_acc: 0.924188
+test_acc: 0.917870
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 16s
+Remaining time expected: 1m 58s
+
+Epoch 187/199
+----------
+val_acc: 0.925090
+test_acc: 0.922383
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 22s
+Remaining time expected: 1m 49s
+
+Epoch 188/199
+----------
+val_acc: 0.927798
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 6s
+Remaining time expected: 1m 39s
+
+Epoch 189/199
+----------
+val_acc: 0.926895
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 2s
+Remaining time expected: 1m 30s
+
+Epoch 190/199
+----------
+val_acc: 0.925993
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 56s
+Remaining time expected: 1m 21s
+
+Epoch 191/199
+----------
+val_acc: 0.929603
+test_acc: 0.918773
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 55s
+Remaining time expected: 1m 12s
+
+Epoch 192/199
+----------
+val_acc: 0.925993
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 16s
+Remaining time expected: 1m 4s
+
+Epoch 193/199
+----------
+val_acc: 0.928700
+test_acc: 0.921480
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 55s
+Remaining time expected: 0m 54s
+
+Epoch 194/199
+----------
+val_acc: 0.928700
+test_acc: 0.922383
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 22s
+Remaining time expected: 0m 46s
+
+Epoch 195/199
+----------
+val_acc: 0.926895
+test_acc: 0.920578
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 2s
+Remaining time expected: 0m 36s
+
+Epoch 196/199
+----------
+val_acc: 0.927798
+test_acc: 0.920578
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 34s
+Remaining time expected: 0m 28s
+
+Epoch 197/199
+----------
+val_acc: 0.927798
+test_acc: 0.919675
+Time elapsed for single epoch: 0m 9s
+Total time expected: 29m 59s
+Remaining time expected: 0m 18s
+
+Epoch 198/199
+----------
+val_acc: 0.926895
+test_acc: 0.923285
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 17s
+Remaining time expected: 0m 9s
+
+Epoch 199/199
+----------
+val_acc: 0.927798
+test_acc: 0.922383
+Time elapsed for single epoch: 0m 9s
+Total time expected: 30m 4s
+Remaining time expected: 0m 0s
+
+Training complete in 30m 11s
+
+Final best val acc: 0.931408
+Final best test acc: 0.923285
+Final best epoch:  156
+
+end_time: 2022-08-02 14:13:05.250305
+00:30:13.50
+(py39) [root@n103 p_command_multi]#
+Display all 1892 possibilities? (y or n)
+(py39) [root@n103 p_command_multi]# tmux save-buffer 0.txt
+(py39) [root@n103 p_command_multi]# vim 0.txt
+-bash: /bin/vim: No such file or directory
+(py39) [root@n103 p_command_multi]# vi 0.txt
+Error detected while processing /root/.vimrc:
+line    9:
+E492: Not an editor command: Plugin 'VundleVim/Vundle.vim'
+line   12:
+E492: Not an editor command: Plugin 'tpope/vim-surround'
+line   15:
+E492: Not an editor command: Plugin 'preservim/nerdcommenter'
+line   34:
+E492: Not an editor command: Plugin 'scrooloose/nerdtree'
+line   41:
+E492: Not an editor command: Plugin 'bad-whitespace'
+line   44:
+E492: Not an editor command: Plugin 'frazrepo/vim-rainbow'
+line   49:
+E492: Not an editor command: Plugin 'vim-airline/vim-airline'
+line   52:
+E492: Not an editor command: Plugin 'vim-airline/vim-airline-themes'
+line   61:
+E492: Not an editor command: Plugin 'ryanoasis/vim-devicons'
+line   64:
+E492: Not an editor command: Plugin 'enricobacis/vim-airline-clock'
+line   67:
+E492: Not an editor command: Plugin 'nathanaelkane/vim-indent-guides'
+line   77:
+E492: Not an editor command: Plugin 'vim-python/python-syntax'
+line   83:
+E492: Not an editor command: Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
+line   92:
+E492: Not an editor command: Plugin 'osyo-manga/vim-anzu'
+line  102:
+E492: Not an editor command: Plugin 'hynek/vim-python-pep8-indent'
+line  105:
+E492: Not an editor command: Plugin 'machakann/vim-highlightedyank'
+line  114:
+E492: Not an editor command: Plugin 'chrisbra/changesplugin'
+line  117:
+E492: Not an editor command: Plugin 'flebel/vim-scroll-position'
+line  129:
+E492: Not an editor command: Plugin 'Raimondi/delimitMate'
+line  133:
+E492: Not an editor command: Plugin 'terryma/vim-expand-region'
+line  136:
+E492: Not an editor command: Plugin 'nvie/vim-flake8'
+line  154:
+E492: Not an editor command: Plugin 'SearchComplete'
+line  157:
+E492: Not an editor command: Plugin 'peterrincker/vim-argumentative'
+line  170:
+E492: Not an editor command: Plugin 'chiel92/vim-autoformat'
+line  173:
+E492: Not an editor command: Plugin 'kshenoy/vim-signature'
+line  176:
+E492: Not an editor command: Plugin 'terryma/vim-smooth-scroll'
+line  183:
+E492: Not an editor command: Plugin 'lervag/vimtex'
+line  186:
+E492: Not an editor command: Plugin 'majutsushi/tagbar'
+line  193:
+E492: Not an editor command: Plugin 'unblevable/quick-scope'
+line  198:
+E492: Not an editor command: Plugin 'lfv89/vim-interestingwords'
+line  201:
+E492: Not an editor command: Plugin 'neoclide/coc.nvim'
+line  220:
+E492: Not an editor command: Plugin 'dominikduda/vim_current_word'
+line  225:
+E492: Not an editor command: Plugin 'tweekmonster/local-indent.vim'
+line  230:
+E492: Not an editor command: Plugin 'tpope/vim-repeat'
+line  272:
+E484: Can't open file /usr/share/vim/vim74/vimrc_example.vim
+Press ENTER or type command to continue
+(py39) [root@n103 p_command_multi]#
